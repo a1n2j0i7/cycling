@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
+html, body {
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html, body, div {
+    padding: 0;
+    margin: 0;
+}
+
+#menu {
+    z-index: 100;
+    background: #cccccc;
+    position: sticky;
+    top: 0;
+}
+
+#menu div {
+    display: inline-block;
+    width: 7em;
+    text-align: center;
+    padding: 0.4em 0;
+}
+
+#logo {
+    background: #000;
+    color: #fff;
+}
+
+#logo img{
+    width: 100px;
+    height: 50px;
+}
+
+#headImage {
+    height: 300px;
+    text-align: center;
+    position: relative;
+}
+
+#head1{
+    background-image: url(./img/1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 300px;
+    float: left;
+}
+
+#head2 {
+    background-image: url(./img/2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 300px;
+    float: left;
+}
+
+#head3 {
+    background: rgba(255, 255, 255, 0.6);
+    height: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+    position: absolute;
+    width: 100%;
+}
+
+.syasin{
+    display:flex;
+    margin: 1em;
+    width: 100%;
+}
+.syasin_text {
+    width: 100%;
+}
+.syasin img {
+    width: 20%;
+    height: 300px;
+}
+
+.syasin_img {
+    width: 100%;
+    height: 300px;
+}#syasin_img3 {
+    background-image: url("img/3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}#syasin_img4 {
+    background-image: url("img/4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}#syasin_img5 {
+    background-image: url("img/5.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}#syasin_img6 {
+    background-image: url("img/6.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}#syasin_img7 {
+    background-image: url("img/7.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}#syasin_img8 {
+    background-image: url("img/8.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}#syasin_img9 {
+    background-image: url("img/9.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}#syasin_img10 {
+    background-image: url("img/10.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}#syasin_img11 {
+    background-image: url("img/11.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}#syasin_img12 {
+    background-image: url("img/12.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}#syasin_img13 {
+    background-image: url("img/13.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}#syasin_img14 {
+    background-image: url("img/14.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}#syasin_img15 {
+    background-image: url("img/15.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}#syasin_img16 {
+    background-image: url("img/16.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* @media screen and (max-width:650px){
+    .syasin {
+            display: flex;
+            flex-direction: column;
+            }
+        .syasin img {
+            width: 100%;
+            height: 300px;
+        }
+} */
+#footer {
+    background: #444;
+    text-align: center;
+    padding: 70px 0;
+    color: #fff;
+}
+
+#container-3 {
+    text-align: center;
+    padding: 100px 0;
+}
+
+#text {
+    font-size: 150%;
+    font-weight: bold;
+}
+
+#button {
+    display: inline-block;
+    background: #3360aa;
+    font-size: 110%;
+    font-weight: bold;
+    border: none;
+    padding: 0.6em 2em;
+    margin-top: 1em;
+    color: #eef;
+    text-decoration: none;
+}
+
+.container {
+    padding: 5rem 1em;
+}
