@@ -159,6 +159,12 @@ html, body, div {
     background-repeat: no-repeat;
     background-size: cover;
 }
+}#syasin_img19 {
+    background-image: url("img/19.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 @media screen and (max-width:650px){
     .syasin {
             display: flex;
